@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+<head>
+<script type="text/javascript" src="/brython/brython.js"></script>
+<script type="text/python3">
+
+import slides
+slides.SlideShow()
+
+
+</script>
+<style type="text/css">
+h1 {
+    font-family: Sans;
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+p {
+    font-size: 23pt;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    z-index: 10;
+}
+
+body {
+    padding-left: 2cm;
+    background: #ffffe0;
+    height: 800px;
+}
+</style>
+</head>
+<body onload="brython({debug:0, cache:'browser'})">
+</body>
+</html>
