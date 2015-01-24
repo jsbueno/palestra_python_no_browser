@@ -163,7 +163,7 @@ Mão na massa
 ]
 
 def rand_color(min_=0, max_=16):
-    return "#%02x%02x%02x" % tuple(random.randrange(min_, max_) for _ in range(3))
+    return "#%01x%01x%01x" % tuple(random.randrange(min_, max_) for _ in range(3))
 
 class SlideShow:
     def __init__(self):
